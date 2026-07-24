@@ -33,8 +33,23 @@
                 placeholder="Enter Your Name">
 
             <button id="startBtn">
-                Start Quiz
+                Continue
             </button>
+
+        </div>
+
+    </div>
+
+    <!-- Category Screen -->
+    <div class="container hidden" id="categoryScreen">
+
+        <div class="card">
+
+            <h1>Choose a Category</h1>
+
+            <p class="tagline" id="categoryGreeting">Pick a topic to begin</p>
+
+            <div id="categoryGrid" class="category-grid"></div>
 
         </div>
 
@@ -60,6 +75,8 @@
 
             </div>
 
+            <span id="categoryTag" class="category-tag"></span>
+
             <h2 id="question"></h2>
 
             <div id="options"></div>
@@ -82,6 +99,12 @@
             <h2 id="finalMessage"></h2>
 
             <h3 id="finalScore"></h3>
+
+            <p id="bestScoreText"></p>
+
+            <button id="changeCategoryBtn">
+                Try Another Category
+            </button>
 
             <button id="restartBtn">
                 Restart Quiz
